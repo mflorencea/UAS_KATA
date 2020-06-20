@@ -1,0 +1,43 @@
+<Page class="page" backgroundColor="lightgray">
+    <ActionBar title="Aliran Puisi" class="action-bar"></ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Label class="font-weight-bold text-center" text="PUISI" />
+            <Label
+                text="Puisi adalah suatu karya sastra yang berasal dari ungkapan atau curahan hati penyair. Karya sastra ini dibuat berdasarkan ungkapan perasaan penyair."
+                textWrap="true" />
+            <Label
+                text="Terdapat banyak jenis aliran puisi. Beberapa diantaranya : "
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Rasisme" />
+            <Label
+                text="Aliran realisme ini sering disebut pula realisme sosial. Aliran ini menuntut penyairnya untuk melukiskan sesuatu sesuai dengan kenyataan sebenarnya secara teliti dan detail. Aliran ini berpandangan bahwa ada hubungan dialektika antara sastra dan kenyataan"
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Ekspresionisme" />
+            <Label
+                text="Berbanding terbalik dengan aliran realisme, aliran ini dianggap sebagai seni yang subyektif. Ekspresionisme lebih mementingkan pengucapan secara spontan. Aliran ini sangat sesuai dengan hati penyair"
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Impresionisme" />
+            <Label
+                text="Impresionisme merupakan aliran sastra yang berusaha melukiskan kesan sesaat dari sesuatu hal yang diamati penyairnya. Bisa dibilang impresionisme ini adalah sketsa, semuanya tidak dilukiskan secara jelas."
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Romantisme" />
+            <Label
+                text="Aliran romantisme berpendapat bahwa rahasia alam tidak cukup dipelajari melalui otak manusia, tetapi juga harus melalui intuisi dan perasaan. Aliran romantisme mengutamakan rasa."
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Simbolisme" />
+            <Label
+                text="Aliran ini merupakan aliran yang muncul sebagai reaksi atas realisme. Pengarang yang beraliran simbolisme berupaya melukiskan sesuatu dengan  menggunakan simbol atau lambang-lambang seperti hewan atau tumbuhan."
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Mistisme" />
+            <Label
+                text="Aliran mistisme adalah aliran kesusastraan yang bersifat melukiskan hubungan manusia dengan wujud keilahian, persatuang yang tinggi."
+                textWrap="true" />
+            <Label class="font-weight-bold" text="Aliran Surealisme" />
+            <Label text="Aliran ini merupakan aliran sastra yang melukiskan berbagai objek dan tanggapan secara serentak. Karya sastra aliran ini umumnya memiliki gaya pengucapan yang melompat-lompat dan bawah sadar" textWrap="true" />
+                <Button class="btn -primary -rounded-sm" text="Puitis Terkenal"
+                tap="navigateToBrowse" />
+        </StackLayout>
+    </ScrollView>
+</Page>

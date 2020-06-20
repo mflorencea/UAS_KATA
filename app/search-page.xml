@@ -1,0 +1,17 @@
+<Page class="page" backgroundColor="lightgray">
+    <ActionBar title="About" class="action-bar"></ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Image src="~/images/kata.PNG" width="150"></Image>
+                <Label />
+                <Label class="text-center"
+                    text="KATA adalah sebuah aplikasi yang membantu kaula muda yang ingin belajar membuat puisi. Penamaan KATA digunakan karena sebuah puisi terangkai dari susunan kata-kata."
+                    textWrap="true" />
+                <Label />
+                <Label class="h3 text-center" text="© MFA - KKG - 2020" />
+                <Button class="btn -primary -rounded-sm" text="Back to Home"
+                    tap="navigateToHub" />
+        </StackLayout>
+    </ScrollView>
+</Page>

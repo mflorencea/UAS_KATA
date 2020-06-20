@@ -1,0 +1,29 @@
+<Page class="page" backgroundColor="lightgray">
+    <ActionBar title="Puitis Terkenal" class="action-bar"></ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Label class="font-weight-bold text-center" text="Puitis" />
+            <Label
+                text="Berikut adalah beberapa penulis puisi yang terkenal, baik dari Indonesia maupun dari luar negeri"
+                textWrap="true" />
+            <Label />
+            <Label class="font-weight-bold" text="Indonesia" />
+            <Label text="• Chairil Anwar" />
+            <Label text="• W.S Rendra" />
+            <Label text="• Asrul Sani" />
+            <Label text="• Sitor Situmorang" />
+            <Label text="• Sapardi Djoko Damono" />
+            <Label text="• Taufik Ismail" />
+            <Label />
+            <Label class="font-weight-bold" text="Luar Negeri" />
+            <Label text="• Victor Hugo" />
+            <Label text="• Charles Dickens" />
+            <Label text="• Emile Zola" />
+            <Label text="• John Milton" />
+            <Label text="• Giovanni Boccaccio" />
+            <Label text="• Sir Walter Scott" />
+            <Button class="btn -primary -rounded-sm" text="Contoh Puisi" tap="navigateToCategory" />
+        </StackLayout>
+    </ScrollView>
+</Page>

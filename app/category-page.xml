@@ -1,0 +1,50 @@
+<Page class="page" backgroundColor="lightgray">
+    <ActionBar title="Contoh Puisi" class="action-bar"></ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Label class="font-weight-bold text-center" text="Contoh Puisi" />
+            <Label />
+            <Label text="Berikut adalah beberapa contoh puisi terkenal"
+                textWrap="true" />
+            <Label />
+            <Label class="font-weight-bold" text="Mata Hitam by W.S Rendra"
+                textWrap="true" />
+            <Label text="Dua mata hitam adalah matahati yang biru"
+                textWrap="true" />
+            <Label text="dua mata hitam sangat kenal bahasa rindu."
+                textWrap="true" />
+            <Label text="Rindu bukanlah milik perempuan melulu"
+                textWrap="true" />
+            <Label text="dan keduanya sama tahu, dan keduanya tanpa malu."
+                textWrap="true" />
+            <Label text="Dua mata hitam terbenam di daging yang wangi"
+                textWrap="true" />
+            <Label text="kecantikan tanpa sutra, tanpa pelangi."
+                textWrap="true" />
+            <Label text="Dua mata hitam adalah rumah yang temaram"
+                textWrap="true" />
+            <Label text="secangkir kopi sore hari dan kenangan yang terpendam"
+                textWrap="true" />
+            <Label />
+            <Label class="font-weight-bold" text="Aku by Chairil Anwar"
+                textWrap="true" />
+            <Label text="Kalau sampai waktuku" textWrap="true" />
+            <Label text="Ku mau tak seorang 'kan merayu'" textWrap="true" />
+            <Label text="Tidak juga kau" textWrap="true" />
+            <Label text="Tak perlu sedu sedan itu" textWrap="true" />
+            <Label text="Aku ini binatang jalang" textWrap="true" />
+            <Label text="Dari kumpulannya terbuang" textWrap="true" />
+            <Label text="Biar peluru menembus kulitku" textWrap="true" />
+            <Label text="Aku tetap meradang menerjang" textWrap="true" />
+            <Label text="Luka dan bisa kubawa berlari" textWrap="true" />
+            <Label text="Berlari" textWrap="true" />
+            <Label text="Hingga hilang pedih peri" textWrap="true" />
+            <Label text="Dan akan lebih tidak perduli" textWrap="true" />
+            <Label text="Aku mau hidup seribu tahun lagi" textWrap="true" />
+            <Label />
+            <Button class="btn -primary -rounded-sm" text="Trik Menulis Puisi"
+                tap="navigateToItem" />
+        </StackLayout>
+    </ScrollView>
+</Page>

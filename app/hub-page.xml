@@ -1,0 +1,23 @@
+<Page class="page" xmlns="http://www.nativescript.org/tns.xsd" backgroundColor="lightcyan">
+    <ActionBar title="Home" class="action-bar">
+        <StackLayout orientation="horizontal" ios:horizontalAlignment="left"
+            android:horizontalAlignment="left" width="20">
+            <Image src="~/images/kata.PNG" class="action-image"></Image>
+            <Label text="Home" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Image src="~/images/kata.PNG" width="200"></Image>
+            <Label class="text-center font-weight-bold"
+                text="Karya Angan Tanpa Alasan"/>
+            <Label />
+            <Button class="btn -outline font-weight-bold" text="Aliran Puisi"
+                tap="navigateToFeatured" />
+            <Button class="btn -outline font-weight-bold"
+                text="Puitis Terkenal" tap="navigateToBrowse" />
+            <Button class="btn -outline font-weight-bold" text="About"
+                tap="navigateToSearch" />
+        </StackLayout>
+    </ScrollView>
+</Page>

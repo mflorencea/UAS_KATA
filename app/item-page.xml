@@ -1,0 +1,21 @@
+<Page class="page" backgroundColor="lightgray">
+    <ActionBar title="Tips & Trik" class="action-bar"></ActionBar>
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <Label class="font-weight-bold text-center" text="Tips Menulis Puisi" />
+            <Label />
+            <Label text="Menulis puisi memang bukan hal yang mudah tapi juga tidak sulit dilakukan. Ini beberapa tips dan trik dalam menulis puisi : " textWrap="true" />
+            <Label text="1. Tentukan tema dan judul" />
+            <Label text="2. Tentukan kata kunci" />
+            <Label text="3. Tentukan diksi dan irama" />
+            <Label text="4. Menggunakan gaya bahasa" />
+            <Label text="5. Kembangkan puisi seindah mungkin" textWrap="true"/>
+            <Label text="6. Koreksi dan perbaiki" />
+            <Label />
+            <Label class="h2 text-center" text="Semoga bermanfaat!" />
+            <Label />
+            <Button class="btn -primary -rounded-sm" text="Back to Home" tap="navigateToHub" />
+        </StackLayout>
+    </ScrollView>
+</Page>
